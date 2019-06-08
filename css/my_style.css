@@ -1,0 +1,97 @@
+body{
+    background-color: #e3e3f0
+}
+body > header{
+    height: 100px;
+    background-color: #494099
+}
+body > header .logo{
+    width: 220px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 30px
+}
+.form_login_page{
+    padding-top: 80px;
+    padding-bottom: 100px
+}
+.form_login_page > nav{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: linear-gradient(to top left,#4cbf97,#38b791);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px
+}
+.form_login_page > .form_item{
+    background-color: white
+}
+.form_login_page > nav .label{
+    font-weight: bold;
+    font-family: raleway;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px
+}
+.form_login_page > nav p{
+    font-weight: bold;
+    font-family: raleway;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px
+}
+.form_login_page > nav input{
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border: white 1px solid;
+    margin-bottom: 12px
+}
+.form_login_page > nav .social_media div{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 12px
+}
+.form_login_page > nav .social_media img{
+    width: 100%;
+    height: 100%
+}
+.form_login_page > nav .social_media a:hover{
+    text-decoration: none
+}
+.form_login_page form .form-control,
+.form_login_page form .input-group-text{
+    border: none;
+    background-color: transparent
+}
+.form_login_page form .input-group{
+    border-bottom: #b1b1b1 1px solid;
+}
+.form_login_page form > div{
+    margin-bottom: 15px
+}
+.form_login_page .form_item .label{
+    font-weight: bold;
+    font-family: raleway;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px
+}
+.form_login_page .form_item{
+    padding-top: 20px
+}
+.form_login_page form input[type=submit]{
+    background-color: #38b791;
+    width: 180px;
+    height: 60px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold
+}
